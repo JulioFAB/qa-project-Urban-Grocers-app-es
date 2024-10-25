@@ -19,37 +19,36 @@ def negative_assert(kit_body):
 
 #Prueba1
 def test_numero_de_caracteres_1():
-    positive_assert("a")
+    positive_assert(data.prueba_1)
 
 
 #Prueba2
 def test_numero_de_caracteres_2():
-    positive_assert("AbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabC")
+    positive_assert(data.prueba_2)
 
 #Prueba3
 def test_numero_de_caracteres_3():
-    negative_assert("")
+    negative_assert(data.prueba_3)
 
 #Prueba4
 def test_numero_de_caracteres_4():
-    negative_assert("AbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcD")
-
+    negative_assert(data.prueba_4)
 #Prueba5
 def test_numero_de_caracteres_5():
-    positive_assert("№%@")
+    positive_assert(data.prueba_5)
 
 #Prueba6
 def test_numero_de_caracteres_6():
-    positive_assert("A Aaa")
+    positive_assert(data.prueba_6)
 
 #Prueba7
 def test_numero_de_caracteres_7():
-    positive_assert("a")
+    positive_assert(data.prueba_7)
 
 #Prueba8
 def test_numero_de_caracteres_8():
-    negative_assert("1234")
+    negative_assert(data.prueba_8)
 
 #Prueba9
 def test_numero_de_caracteres_9():
-    negative_assert(123)
+    negative_assert(data.prueba_9)
